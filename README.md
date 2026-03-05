@@ -6,7 +6,16 @@
 5. Bansah Zuel -                                             22107632
 6. Yusif Ibrahim -                                           22035728
 
+Project manager
+1. Yusif Ibrahim
 
+Knowledge Engineers
+1. 
+2. 
+Programmers
+1. 
+2. 
+3.
 
 Aim of the Project
 To design and develop a rule-based agricultural expert system that assists farmers in diagnosing crop diseases and provides appropriate treatment and farming recommendations.
