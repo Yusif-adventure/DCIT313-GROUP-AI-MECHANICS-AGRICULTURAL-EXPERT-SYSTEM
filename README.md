@@ -7,18 +7,18 @@
 6. Yusif Ibrahim -                                           22035728
 
 Project manager
-1. Yusif Ibrahim
+1. Revic Osei Owusu -                                        
 
 Knowledge Engineers
 
-1. 
+1. Osman Ilyas
 
-2. 
+2. Nana Boateng Yeboah
 Programmers
 
-1. 
-2. 
-3.
+1. Yusif Ibrahim
+2.  ⁠Dennis Kwaku Dapaah Adomako-
+3.Bansah Zuel
 
 Aim of the Project
 To design and develop a rule-based agricultural expert system that assists farmers in diagnosing crop diseases and provides appropriate treatment and farming recommendations.
