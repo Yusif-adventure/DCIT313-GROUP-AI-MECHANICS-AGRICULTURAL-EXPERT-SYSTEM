@@ -18,8 +18,7 @@ Knowledge Engineers
 Programmers
 
 1. Yusif Ibrahim
-2.  ⁠Dennis Kwaku Dapaah Adomako-
-3.Bansah Zuel
+2.  ⁠Dennis Kwaku Dapaah Adomako-Bansah Zuel
 
 Aim of the Project
 To design and develop a rule-based agricultural expert system that assists farmers in diagnosing crop diseases and provides appropriate treatment and farming recommendations.
