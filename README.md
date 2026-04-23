@@ -1,3 +1,7 @@
+
+**GOOD WORK MARKED
+**
+
 # DCIT313-GROUP-AI-MECHANICS-AGRICULTURAL-EXPERT-SYSTEM
 Our team members are:            
 1. Revic Osei Owusu [r-owusu] -                                        22161849          
