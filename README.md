@@ -2,10 +2,9 @@
 Our team members are:            
 1. Revic Osei Owusu [r-owusu] -                                        22161849          
 2. Ilyas Osman [SamuncleML] -                                            22099559           
-3. ⁠Nana Boateng Yeboah [Yusif-adventure] -                                     22142270
-4. ⁠Dennis Kwaku Dapaah Adomako [] -                              22238484
-5. Bansah Zuel [] -                                             22107632
-6. Yusif Ibrahim [] -                                           22035728
+3. ⁠Nana Boateng Yeboah [Beee45] -                                     22142270
+4. ⁠Dennis Kwaku Dapaah Adomako [DennisAdomako-blip] -                              22238484
+5. Yusif Ibrahim [Yusif-adventure] -                                           22035728
 
 Project manager
 1. Revic Osei Owusu -                                        
