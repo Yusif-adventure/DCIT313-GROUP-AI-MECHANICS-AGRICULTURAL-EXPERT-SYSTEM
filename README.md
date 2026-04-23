@@ -93,7 +93,7 @@ We organized our project with the following structure:
 - `client/`: React Frontend application developed by our programmers Yusif Ibrahim and Dennis Kwaku Dapaah Adomako-Bansah Zuel.
 - `server/`: Node.js Express Backend API developed by our programmers.
 - `prolog/`: Original SWI-Prolog Knowledge Base and Logic Engine.
-- `plant_expert/`: Restructured Prolog expert system with modular knowledge base and inference engine.
+- `plant_expert/`: Restructured Prolog expert system with modular knowledge base and inference engine (current runtime entry point: `plant_expert/main.pl`).
 
 ## Our Setup & Running Instructions
 
@@ -137,6 +137,41 @@ We organized our project with the following structure:
 2. Check the observed symptoms from the list.
 3. Click "Diagnose".
 4. Our system will display the identified disease, treatment, and preventive advice.
+
+## API Endpoints
+
+- `GET /api/health`: Returns backend health status and active Prolog entrypoint.
+- `POST /api/diagnose`: Accepts crop and symptom list, validates inputs, runs Prolog diagnosis, and returns ranked results (top matches + confidence).
+
+Example request body:
+
+```json
+{
+   "crop": "maize",
+   "symptoms": ["yellow_leaves", "stunted_growth"]
+}
+```
+
+Example response body:
+
+```json
+{
+   "disease": "Nitrogen Deficiency",
+   "treatment": "Apply nitrogen-rich fertilizer like urea or ammonium nitrate.",
+   "prevention": "Regularly test soil nutrient levels.",
+   "confidence": 100,
+   "topMatches": [
+      {
+         "disease": "Nitrogen Deficiency",
+         "confidence": 100,
+         "matchedSymptoms": 2,
+         "totalSymptoms": 2,
+         "treatment": "Apply nitrogen-rich fertilizer like urea or ammonium nitrate.",
+         "prevention": "Regularly test soil nutrient levels."
+      }
+   ]
+}
+```
 
 ## Our System Architecture
 

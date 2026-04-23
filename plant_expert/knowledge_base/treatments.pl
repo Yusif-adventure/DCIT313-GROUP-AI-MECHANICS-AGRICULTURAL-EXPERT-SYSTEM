@@ -1,4 +1,7 @@
 % Treatments
+:- discontiguous treatment/2.
+:- discontiguous prevention/2.
+
 treatment(nitrogen_deficiency, "Apply nitrogen-rich fertilizer like urea or ammonium nitrate.").
 treatment(maize_streak_virus, "Use resistant maize varieties and control leafhopper vectors.").
 treatment(fall_armyworm, "Apply appropriate pesticides or use biological control agents like wasps.").
