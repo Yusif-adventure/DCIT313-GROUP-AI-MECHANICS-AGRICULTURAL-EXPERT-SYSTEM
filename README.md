@@ -1,11 +1,11 @@
 # DCIT313-GROUP-AI-MECHANICS-AGRICULTURAL-EXPERT-SYSTEM
-**Our team members are**                                     **ID**             **Username**
-1. Revic Osei Owusu -                                        22161849          
-2. Ilyas Osman -                                             22099559             SamuncleML
-3. ⁠Nana Boateng Yeboah -                                     22142270
-4. ⁠Dennis Kwaku Dapaah Adomako-                              22238484
-5. Bansah Zuel -                                             22107632
-6. Yusif Ibrahim -                                           22035728
+Our team members are:            
+1. Revic Osei Owusu [] -                                        22161849          
+2. Ilyas Osman [SamuncleML] -                                            22099559           
+3. ⁠Nana Boateng Yeboah [] -                                     22142270
+4. ⁠Dennis Kwaku Dapaah Adomako [] -                              22238484
+5. Bansah Zuel [] -                                             22107632
+6. Yusif Ibrahim [] -                                           22035728
 
 Project manager
 1. Revic Osei Owusu -                                        
