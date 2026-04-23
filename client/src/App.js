@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DiagnoseForm from './components/DiagnoseForm'; // We'll create this next
-import ResultsDisplay from './components/ResultsDisplay'; // And this
+import DiagnoseForm from './components/DiagnoseForm';
+import ResultsDisplay from './components/ResultsDisplay';
 import './App.css';
 
 function App() {
@@ -22,15 +22,17 @@ function App() {
         body: JSON.stringify({ crop, symptoms }),
       });
 
+      const data = await response.json().catch(() => ({}));
+
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        const details = data.details ? ` ${data.details}` : '';
+        throw new Error((data.error || 'Diagnosis request failed.') + details);
       }
 
-      const data = await response.json();
       setResult(data);
     } catch (err) {
       console.error(err);
-      setError('Failed to connect to the diagnosis server. Is the backend running?');
+      setError(err.message || 'Failed to connect to the diagnosis server. Is the backend running?');
     } finally {
       setLoading(false);
     }
